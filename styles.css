@@ -1,0 +1,549 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #1b1b1b;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+}
+
+.main-logo {
+    color: white;
+    margin: auto;
+}
+
+.nav-bar-buttons {
+    height: 5vh;
+    width: 7vw;
+    border-radius: 40px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    border: none;
+    background-color: rgb(236, 235, 235)
+}
+
+
+.nav-button-side {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    justify-content: flex-end;
+    column-gap: 3vh;
+}
+
+.nav-logo-side {
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-bar-buttons:hover {
+    background-color: rgb(203, 206, 215);
+    color: white;
+    transition: ease-in-out 20ms;
+    cursor: pointer;
+}
+
+.nav-bar-buttons:active {
+    background-color: #1d9bf0;
+}
+
+.home-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-image {
+    width: 7vw;
+    border-radius: 10%;
+}
+
+.video-section {
+    width: 100%;
+    position: relative;
+}
+
+.video-section video {
+    width: 100%;
+    height: auto;
+}
+
+.home-page-title {
+    color: rgb(65, 102, 170);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 6vw;
+    width: max-content;
+    margin: 0;
+    font-style: oblique;
+}
+
+.home-page-title-2 {
+    color: rgb(65, 102, 170);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(+115%) translateX(-50%);
+    font-size: 2vw;
+    width: max-content;
+    margin: 0;
+    font-style: oblique;
+}
+
+.space-bar {
+    width: 90%;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 15px 15px;
+    width: 25%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 28px;
+    object-fit: fill;
+}
+
+.card .card-text {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.cards-wrap {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.surfsuits-cards {
+    background-color: black;
+}
+
+.surfers-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.product-card {
+    width: 307px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.surfboards-text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: none;
+}
+
+.product-text {
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.surfboard-text {
+    color: black;
+}
+
+.surfsuits-text {
+    color: white;
+}
+
+.buy-button {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #2b6852;
+    color: white;
+    border: none;
+}
+
+.buy-button:hover {
+    cursor: pointer;
+    background-color: #3d8168;
+    color: white;
+}
+
+.surf-suits-section {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.surfsuits-suits {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.surf-suits-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: none;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border: black 2px;
+    border-top-style: ridge;
+}
+
+.test {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 15vw;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social-media-images {
+    margin-top: 10px;
+    height: 4vh;
+    width: 2vw;
+    color: rgb(7, 7, 7);
+    background-color: white;
+    border-radius: 100px;
+    border-width: 5px;
+    border: black;
+}
+
+.footer-text {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+}
+
+.back-home-button-style {
+    width: 8vw;
+    height: 5vh;
+    border-radius: 45px;
+    cursor: pointer;
+    background-color: #fffffff5;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+}
+
+.back-home-button-style:hover {
+    background-color: rgb(203, 206, 215);
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.back-home-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #1b1b1b;
+    text-decoration: auto;
+}
+
+.surf-suits-card-wrap {
+    background-color: #1b1b1b;
+}
+
+.surf-boards-title {
+    display: flex;
+    margin: none;
+    justify-content: center;
+    margin-top: 9vh;
+    width: 100%;
+}
+
+.surf-suits-title {
+    display: flex;
+    margin: none;
+    justify-content: center;
+    margin-top: 9vh;
+    width: 100%;
+    background-color: #1b1b1b;
+}
+
+.surfboards-buy-section-title {
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+.surfsuits-buy-section-title {
+    font-style: oblique;
+    font-family: fantasy;
+    color: white;
+}
+
+.space-bar {
+    color: #d40c0c;
+    width: 80%;
+}
+
+.social-media-images:hover {
+    transform: translateY(-5px);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 4vh;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.search-bar:hover .search-bar-look {
+    width: 18vw;
+    height: 5vh;
+}
+
+.search-bar:hover i {
+    color: rgb(201, 199, 199);
+}
+
+
+.search-bar-look {
+    width: 0;
+    outline: none;
+    border: none;
+    transition: 0.8s;
+    background: transparent;
+}
+
+i {
+    color: black;
+}
+
+.products-info-image {
+    width: 100%;
+    height: 80vh;
+}
+
+.fa-user {
+    color: white;
+    border-radius: 50%;
+    border: 0.2vw;
+    border-style: solid;
+    padding: 0.5vw;
+}
+
+.fa-user:hover {
+    cursor: pointer;
+}
+
+.footer-text:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .cards-wrap .card {
+        width: 23%;
+        height: auto;
+    }
+
+    .back-home-button-style {
+        width: 12vw;
+    }
+
+    .buy-button {
+        width: 150%;
+        height: 3vh;
+
+    }
+
+    .nav-bar-buttons {
+        width: 12vw;
+    }
+
+    .products-info-image {
+        height: 25%;
+    }
+
+
+    .social-media {
+        width: 23vw;
+    }
+
+    .social-media-images {
+        width: 5vw;
+    }
+
+    .nav-logo-side {
+        width: 28vw;
+    }
+
+    .logo-image {
+        width: 12vw;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards-wrap .card {
+        width: 60%;
+
+    }
+
+    html {
+        width: 100%;
+
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .back-home-button-style {
+        width: 15vw;
+    }
+
+
+    .wrapper .header {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .card img {
+        width: 30%;
+    }
+
+    .buy-button {
+        width: 150%;
+        height: 3vh;
+
+    }
+
+    .products-info-image {
+        height: 18%;
+    }
+
+
+    .social-media {
+        width: 23vw;
+    }
+
+    .social-media-images {
+        width: 5vw;
+    }
+
+    .logo-image {
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .cards-wrap .card {
+        width: 70%;
+    }
+
+    .buy-button {
+        width: 150%;
+        height: 3vh;
+
+    }
+
+    .surf-suits-text {
+        width: 100%;
+
+    }
+
+    .back-home-button-style {
+        width: 25vw;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+
+    .wrapper .header {
+        font-size: 14px;
+    }
+
+    .nav-bar-buttons {
+        width: 15vw;
+
+    }
+
+    .nav-button-side {
+        width: 80%;
+    }
+
+    .products-info-image {
+        height: 15%;
+    }
+
+    .social-media {
+        width: 23vw;
+    }
+
+    .social-media-images {
+        width: 5vw;
+    }
+
+}
